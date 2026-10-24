@@ -1,48 +1,113 @@
-# SOLERAN CINEMATIC
-> **A Little Extraordinary** · Premium Cinematic Café Website
+<div align="center">
 
-Soleran Cinematic is a production-grade, editorial luxury café brand experience built with Next.js (App Router), TypeScript, Tailwind CSS, GSAP ScrollTrigger, and Lenis smooth scrolling. The experience evokes quiet luxury with an artisan black-and-champagne-gold aesthetic, oversized italic serif typography, floating food photography, generous negative space, and synchronized scroll-driven transitions.
+  <img src="public/images/hero-cafe.jpg" alt="Soleran Cinematic Hero" width="100%" style="border-radius: 18px; border: 1px solid rgba(200, 169, 107, 0.25); max-height: 480px; object-fit: cover;" />
 
----
+  <br /><br />
 
-## 1. Project Overview
+  <img src="src/app/icon.svg" alt="Soleran Gold Monogram" width="64" height="64" style="margin-bottom: 12px;" />
 
-Soleran is designed to feel like a luxury brand campaign rather than a conventional café menu. Every detail is crafted around slow living, artisan roasting, and quiet indulgence:
-- **00 / The Experience**: Cinematic hero scene introducing the brand with an ambient amber spotlight and local photography.
-- **01 / The Signature Pour**: Mango Milkshake in a tall ribbed crystal highball with fresh mango spear and velvety finish.
-- **02 / The Daily Ritual**: Slow Cappuccino in matte black ceramic with intricate rosetta latte art and microfoam.
-- **03 / The Indulgent Finish**: Crispy Belgian Chocolate Waffle with dark chocolate drizzle and shaved cocoa curls.
-- **04 / The Philosophy**: Our Story narrative showcasing the artisan pour-over ritual and slow craft principles.
-- **05 / Visit Us**: Sanctuary location details (12 Olive Lane, Bengaluru), opening hours, and direct concierge contact.
-- **Footer**: Deliberate conclusion with dynamic year, navigation links, and smooth back-to-top action.
+  <h1 align="center" style="font-family: serif; letter-spacing: 0.3em; font-weight: 300;">
+    S O L E R A N
+  </h1>
 
----
+  <p align="center" style="font-size: 1.15rem; color: #C8A96B; letter-spacing: 0.15em;">
+    <strong>— A LITTLE EXTRAORDINARY —</strong>
+  </p>
 
-## 2. Key Features
+  <p align="center" style="color: #B8B0A3; max-width: 620px; line-height: 1.7;">
+    <em>An artisan café brand experience curated with quiet luxury, oversized editorial typography, floating culinary photography, and synchronized scroll-driven storytelling.</em>
+  </p>
 
-- **Quiet Luxury Art Direction**: Curated palette (`#080807` primary background, `#C8A96B` champagne gold accents, `#F5F0E7` warm cream typography) with film grain and vignette overlays.
-- **Scroll-Driven Storytelling**: GSAP ScrollTrigger timeline pins the product story on desktop, transitioning between scenes while smoothly scrubbing typography, lighting, and images.
-- **Dynamic Product Indicator**: Real-time `01 / 03`, `02 / 03`, `03 / 03` counter reflecting the active product.
-- **Lenis Smooth Scrolling**: Decoupled, inertial smooth scrolling clock-synchronized with GSAP's ticker (`gsap.ticker.lagSmoothing(0)`).
-- **Responsive Architecture**: Multi-product pinned desktop scene gracefully adapts on mobile and tablet into an intuitive touch-friendly stacked sequence with zero scroll-locking.
-- **Accessible & Motion-Aware**: Full keyboard navigation, semantic HTML5 landmarks, and automatic fallback for users with `prefers-reduced-motion: reduce`.
-- **Local Asset Autonomy**: All photography is locally bundled under `public/images/` with Next.js Image component optimization and no external runtime dependencies.
+  <br />
 
----
+  <!-- Luxury Custom Badges -->
+  <p align="center">
+    <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js%2016-App%20Router-080807?style=for-the-badge&logo=next.js&logoColor=C8A96B&labelColor=11100E" alt="Next.js 16" /></a>
+    <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript%205-Strict%20Mode-080807?style=for-the-badge&logo=typescript&logoColor=C8A96B&labelColor=11100E" alt="TypeScript 5" /></a>
+    <a href="https://greensock.com/gsap"><img src="https://img.shields.io/badge/GSAP%203-ScrollTrigger-080807?style=for-the-badge&logo=greensock&logoColor=C8A96B&labelColor=11100E" alt="GSAP" /></a>
+    <a href="https://github.com/darkroomengineering/lenis"><img src="https://img.shields.io/badge/Lenis-Smooth%20Scroll-080807?style=for-the-badge&logo=buffer&logoColor=C8A96B&labelColor=11100E" alt="Lenis" /></a>
+    <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind%204-Design%20Tokens-080807?style=for-the-badge&logo=tailwindcss&logoColor=C8A96B&labelColor=11100E" alt="Tailwind 4" /></a>
+  </p>
 
-## 3. Technology Stack
+  <br />
 
-- **Framework**: Next.js 16 (App Router, Turbopack)
-- **Language**: TypeScript 5 (Strict Mode)
-- **Styling**: Tailwind CSS 4 & Vanilla CSS custom design tokens
-- **Animations**: GSAP 3 (ScrollTrigger, matchMedia, context cleanup)
-- **Smooth Scroll**: Lenis
-- **Icons**: Lucide React
-- **Typography**: Cormorant Garamond (Editorial Serif) & DM Sans (Modern Sans-Serif) via `next/font/google`
+  <blockquote>
+    <strong>“At Soleran, we believe the best moments are rarely hurried. From the first pour of espresso to the last bite of something sweet, every detail is an invitation to slow down, settle in, and savour the ordinary extraordinary.”</strong>
+  </blockquote>
+
+</div>
 
 ---
 
-## 4. Project Structure
+## ⚜️ The Curated Experience
+
+| Scene Index | Scene Title | Palette Mood | Narrative Focus |
+| :--- | :--- | :--- | :--- |
+| **`00`** | **The Experience** | `#080807` Nocturne & Amber Glow | Slow mornings, quiet luxury café culture, vintage brass machine |
+| **`01`** | **The Signature Pour** | `#C8A96B` Sunlit Champagne Gold | Sun-ripened Alphonso mango, silky milk & crystal highball |
+| **`02`** | **The Daily Ritual** | `#8E754A` Warm Espresso Bronze | Single-origin pulled espresso, velvet microfoam & rosetta art |
+| **`03`** | **The Indulgent Finish**| `#A56C42` Deep Cocoa Velvet | Belgian waffle, dark chocolate drizzle & cocoa shavings |
+| **`04`** | **The Philosophy** | `#11100E` Tactile Walnut | Barista V60 pour ritual, single-estate beans, slow extraction |
+| **`05`** | **Sanctuary & Visit** | `#181612` Warm Gold Accent | 12 Olive Lane, Bengaluru · 9:00 AM – 10:00 PM |
+
+---
+
+## 🏛️ Haute-Couture Tech Stack
+
+<div align="center">
+
+```
+   ┌────────────────────────────────────────────────────────────────────────┐
+   │                                                                        │
+   │   ❖ CORE ENGINE            ❖ CINEMATIC MOTION     ❖ ART & TYPOGRAPHY   │
+   │   ────────────────         ──────────────────     ──────────────────   │
+   │   • Next.js 16 (App)       • GSAP 3 Core          • Cormorant Garamond │
+   │   • React 19.3             • GSAP ScrollTrigger   • DM Sans Modern     │
+   │   • TypeScript 5.8         • Lenis Smooth Scroll  • Tailwind CSS 4     │
+   │   • Turbopack Engine       • Ticker Clock Sync    • SVG Film Grain     │
+   │                                                                        │
+   └────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+### 1. Architectural Foundations
+* **Next.js 16 (App Router)**: Server-side rendering, zero-waterfall static prerendering, partial prefetching, and optimal chunk splitting.
+* **React 19 & Strict TypeScript**: Complete type safety with custom external store subscriptions (`useSyncExternalStore`) for zero-cascading-render hydration.
+* **Turbopack**: Instantaneous HMR development and sub-second builds.
+
+### 2. Motion & Inertia Systems
+* **GSAP 3 ScrollTrigger**: Desktop multi-scene container pinning with continuous scrubbing (`scrub: 0.8`), crossfading typography, lighting transforms, and live `01 / 03` counter sync.
+* **Lenis Smooth Scroll Engine**: Inertial smooth scrolling clock-synchronized into `gsap.ticker` to eliminate dual animation loops and jitter.
+* **Responsive matchMedia**: Desktop pinning gracefully transitions into touch-optimized stacked scenes on mobile viewports.
+* **Accessibility**: Full respect for `prefers-reduced-motion: reduce`, downgrading transitions to refined static editorial layouts.
+
+### 3. Editorial Visual Design
+* **Curated Palette**: Pure deep black `#080807`, champagne gold `#C8A96B`, espresso bronze `#8E754A`, and warm ivory text `#F5F0E7`.
+* **Subtle Atmosphere**: Fine procedural SVG noise grain texture and gentle radial vignette that grounds photography without layout shift.
+* **Next.js Image Optimization**: Responsive WebP/AVIF generation with `fetchpriority="high"` on LCP hero assets.
+
+---
+
+## 📸 Editorial Gallery Showcase
+
+<div align="center">
+
+| **01 · The Signature Pour** | **02 · The Daily Ritual** |
+|:---:|:---:|
+| <img src="public/images/mango-milkshake.jpg" width="400" alt="Mango Milkshake" style="border-radius: 12px; border: 1px solid rgba(200,169,107,0.2);" /> | <img src="public/images/cappuccino.jpg" width="400" alt="Slow Cappuccino" style="border-radius: 12px; border: 1px solid rgba(200,169,107,0.2);" /> |
+| *Sun-ripened mango, silky milk & velvet finish (₹249)* | *Velvety microfoam & single-origin espresso (₹199)* |
+
+| **03 · The Indulgent Finish** | **04 · The Soleran Philosophy** |
+|:---:|:---:|
+| <img src="public/images/chocolate-waffle.jpg" width="400" alt="Chocolate Waffle" style="border-radius: 12px; border: 1px solid rgba(200,169,107,0.2);" /> | <img src="public/images/story-cafe.jpg" width="400" alt="The Ritual of Pour" style="border-radius: 12px; border: 1px solid rgba(200,169,107,0.2);" /> |
+| *Crisp Belgian waffle with dark chocolate drizzle (₹279)* | *Slow extraction & the patient craft of pour-over* |
+
+</div>
+
+---
+
+## 📁 Repository Blueprint
 
 ```
 soleran-cinematic/
@@ -84,144 +149,52 @@ soleran-cinematic/
 
 ---
 
-## 5. Prerequisites
+## 🛠️ Local Development & Scripts
 
-- **Node.js**: `v18.18.0` or higher (tested on Node v24)
-- **npm**: `v9.0.0` or higher (or equivalent package manager)
-
----
-
-## 6. Local Setup & Commands
-
-Clone or navigate into the project directory:
-
+### 1. Installation
 ```bash
-cd soleran-cinematic
-```
+# Clone the repository
+git clone https://github.com/suraj-gupta11/cinematic-soleran.git
+cd cinematic-soleran
 
-Install dependencies:
-```bash
+# Install dependencies
 npm install
 ```
 
-Start development server:
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) (or `http://localhost:3001` if port 3000 is occupied).
+### 2. Available Commands
 
-Run TypeScript verification:
-```bash
-npm run typecheck
-```
-
-Run ESLint checks:
-```bash
-npm run lint
-```
-
-Build production bundle:
-```bash
-npm run build
-```
-
-Start production server:
-```bash
-npm run start
-```
+| Command | Action |
+| :--- | :--- |
+| `npm run dev` | Launch Next.js development server at [http://localhost:3000](http://localhost:3000) |
+| `npm run typecheck` | Run strict TypeScript compiler verification without emitting artifacts (`tsc --noEmit`) |
+| `npm run lint` | Execute ESLint inspection |
+| `npm run build` | Compile optimized production bundle |
+| `npm run start` | Serve production build locally |
 
 ---
 
-## 7. How to Customize Products & Images
+## 🚀 Deployment on Vercel
 
-### Replacing Product Images
-Add your photography to `public/images/`:
-- `hero-cafe.jpg` (16:9 or 4:5 recommended)
-- `mango-milkshake.jpg` (3:4 aspect ratio recommended)
-- `cappuccino.jpg` (3:4 aspect ratio recommended)
-- `chocolate-waffle.jpg` (3:4 aspect ratio recommended)
-- `story-cafe.jpg` (16:10 aspect ratio recommended)
-
-### Modifying Products Data
-Open [`src/lib/products.ts`](src/lib/products.ts). You can change names, descriptions, categories, prices, and notes:
-
-```typescript
-{
-  id: 'mango-milkshake',
-  number: '01',
-  name: 'Milkshake',
-  nameItalic: 'Mango',
-  subtitle: 'The Signature Pour',
-  description: 'Sun-ripened mango, silky milk, and a velvet finish. A little sunshine in every sip.',
-  price: '₹249',
-  category: 'THE SIGNATURE POUR',
-  image: '/images/mango-milkshake.jpg',
-  imageAlt: 'Artisanal mango milkshake in tall crystal glass',
-  accent: '#C8A96B',
-  note: 'FRESH MANGO · MADE TO ORDER',
-  composition: 'text-left', // or 'image-left'
-}
-```
-
----
-
-## 8. GSAP & Lenis Architecture
-
-1. **Lenis Integration** ([`src/hooks/useSmoothScroll.ts`](src/hooks/useSmoothScroll.ts)):
-   - Initializes Lenis with custom easing: `(t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))`.
-   - Synchronizes scroll events directly with GSAP's `ScrollTrigger.update`.
-   - Mounts the `lenis.raf()` call inside GSAP's central `gsap.ticker`, avoiding dual animation clocks and eliminating frame drops.
-   - Disables `gsap.ticker.lagSmoothing(0)` to prevent scrub lag.
-
-2. **ScrollTrigger Pinning** ([`src/components/ProductStory.tsx`](src/components/ProductStory.tsx)):
-   - Uses `gsap.matchMedia()`:
-     - On desktop (`min-width: 1024px`), pins the `.relative.w-full.h-screen` container for `+=240%` viewport distance.
-     - A master timeline scrubs the 3 scenes into view sequentially using `power2.out` transitions.
-     - On mobile and tablet (`max-width: 1023px`), pinning is automatically bypassed in favor of individual scroll-triggered entrances, guaranteeing full touch scrollability.
-   - All timelines and triggers are encapsulated inside `gsap.context()` for clean teardown upon unmounting.
-
-3. **Reduced Motion**:
-   - The [`useReducedMotion`](src/hooks/useReducedMotion.ts) hook checks `prefers-reduced-motion: reduce`. When active, animations degrade gracefully into static editorial views.
-
----
-
-## 9. Vercel Deployment Guide
-
-To deploy this project to Vercel:
-
-1. **Initialize Git Repository** (if not already done):
+1. **Push to GitHub**:
    ```bash
-   cd soleran-cinematic
-   git init
    git add .
    git commit -m "feat: complete Soleran Cinematic luxury café website"
+   git push -u origin main
    ```
 
-2. **Push to GitHub**:
-   - Create a new repository on [GitHub](https://github.com).
-   - Link and push your local branch:
-     ```bash
-     git remote add origin https://github.com/<your-username>/soleran-cinematic.git
-     git branch -M main
-     git push -u origin main
-     ```
-
-3. **Deploy on Vercel**:
-   - Sign in to your [Vercel Dashboard](https://vercel.com).
-   - Click **Add New Project** and select your GitHub repository `soleran-cinematic`.
-   - Vercel automatically detects **Next.js**.
-   - No environment variables are required.
-   - Click **Deploy**.
-   - Verify the production preview URL provided by Vercel.
+2. **Deploy with Vercel**:
+   - Go to [Vercel Dashboard](https://vercel.com) and click **Add New Project**.
+   - Import `suraj-gupta11/cinematic-soleran`.
+   - Vercel automatically detects **Next.js** framework preset.
+   - Click **Deploy** (zero environment variables required).
 
 ---
 
-## 10. Troubleshooting
-
-- **Port in Use**: If port 3000 is occupied, Next.js will automatically select port 3001. Check terminal output for the active URL.
-- **ScrollTrigger Offset**: If anchor links need adjustment, tune the `offset` parameter in `lenis.scrollTo(element, { offset: -30 })` in `src/hooks/useSmoothScroll.ts`.
-- **Static Assets**: Next.js automatically caches assets in `public/`. When replacing images with the same filename, clear the `.next` cache directory by running `rm -rf .next && npm run dev`.
-
----
-
-© 2026 Soleran Artisan Café. All rights reserved.
+<div align="center">
+  <p style="color: #777168; font-size: 0.85rem; letter-spacing: 0.15em;">
+    © 2026 SOLERAN ARTISAN CAFÉ · BENGALURU, INDIA · ALL RIGHTS RESERVED
+  </p>
+  <p style="color: #C8A96B; font-size: 0.8rem;">
+    <em>Crafted with Quiet Luxury &amp; Cinematic Motion</em>
+  </p>
+</div>
